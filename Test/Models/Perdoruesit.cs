@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Test.Models
+namespace Tema.Models
 {
     using System;
     using System.Collections.Generic;

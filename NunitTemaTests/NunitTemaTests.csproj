@@ -79,55 +79,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Perdoruesit.cs">
-      <DependentUpon>TemaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Rolet.cs">
-      <DependentUpon>TemaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="sysdiagram.cs">
-      <DependentUpon>TemaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="TemaModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TemaModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="TemaModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TemaModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="TemaModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TemaModel.edmx</DependentUpon>
-    </Compile>
     <Compile Include="TemaTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
-    <EntityDeploy Include="TemaModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>TemaModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="TemaModel.edmx.diagram">
-      <DependentUpon>TemaModel.edmx</DependentUpon>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="TemaModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>TemaModel.Context.cs</LastGenOutput>
-      <DependentUpon>TemaModel.edmx</DependentUpon>
-    </Content>
-    <Content Include="TemaModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>TemaModel.edmx</DependentUpon>
-      <LastGenOutput>TemaModel.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

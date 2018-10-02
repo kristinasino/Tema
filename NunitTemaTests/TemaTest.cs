@@ -1,17 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Net;
 using System.Net.Http;
-using System.Net.Http.Headers;
 using System.Text;
-using System.Web.Http;
-using System.Web.Http.Routing;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Moq;
 using Newtonsoft.Json;
-using Test.Controllers;
-using Test.Models;
+using Tema.Controllers;
+using Tema.Models;
 
 namespace NunitTemaTests
 {

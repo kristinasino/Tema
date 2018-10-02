@@ -3,9 +3,9 @@ using System;
 using System.Linq;
 using System.Net.Http;
 using System.Web.Http;
-using Test.Models;
+using Tema.Models;
 
-namespace Test.Controllers
+namespace Tema.Controllers
 {
     public class ValuesController : ApiController
     {
