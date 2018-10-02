@@ -106,6 +106,7 @@ namespace Test.Controllers
                         P.Gjinia = perdoruesi.Gjinia;
                         P.Email = perdoruesi.Email;
                         P.RoleID = perdoruesi.RoleID;
+                        P.Telefon = perdoruesi.Telefon;
                     
                      
                     }
